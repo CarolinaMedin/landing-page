@@ -1,0 +1,9 @@
+.container {
+    width: 1200px;
+    height: 800px;
+    background-color: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+}
