@@ -9,6 +9,14 @@
     justify-content: center;
 }
 
-.nav-link {
+li {
+    list-style-type: none;
+}
+
+a:hover {
     text-decoration: none;
 }
+
+.nav-item {}
+
+.nav-link {}
