@@ -1,5 +1,4 @@
     * {
-        border: 1px solid red;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -25,10 +24,7 @@
     }
     
     .container-logo {
-        /* width: 10em;
-        height: 10em; */
-        /* margin: 2em 2em 2em 2em; */
-        background-color: red;
+        background-color: transparent;
     }
     
     .img-logo {
@@ -70,6 +66,25 @@
         text-decoration: none;
     }
     /* Caja presentacion */
+    
+    .cont-title {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        height: 20%;
+        flex-direction: row;
+    }
+    
+    .font-title {
+        padding: 2em;
+    }
+    
+    .title {
+        width: 100%;
+        height: 3em;
+        justify-content: center;
+    }
     
     .container-2 {
         display: flex;
@@ -120,26 +135,33 @@
     /* Caja mapa */
     
     .container-3 {
-        /* width: 100%;
-        height: 15em;
+        width: 100%;
+        height: 40%;
         display: flex;
-        justify-content: center;
         flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 2em;
+        padding-bottom: 2em;
         flex-flow: row wrap;
-        padding-top: 1em;
-        padding-bottom: 1em; */
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    
+    .information {
+        width: 25em;
+        height: 5em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 2em;
     }
     
     .cont-img {
-        width: 20em;
+        background-color: transparent;
+        flex-direction: row;
+        flex-flow: row wrap;
+    }
+    
+    .img-mapa {
+        width: 25em;
         height: 10em;
-        background-color: #ffff;
-        padding-top: 1em;
-        padding-bottom: 1em;
+        display: flex;
+        justify-content: flex-end;
     }
