@@ -1,4 +1,5 @@
     * {
+        border: 1px solid red;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -10,10 +11,35 @@
         background: linear-gradient(120deg, #f7971e 0%, #ffd200 100%);
         flex-direction: column;
     }
+    /* Caja logo y navbar */
+    
+    .container-1 {
+        display: flex;
+        width: 100%;
+        height: 30%;
+        flex-direction: row;
+        padding: 2em;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .container-logo {
+        /* width: 10em;
+        height: 10em; */
+        /* margin: 2em 2em 2em 2em; */
+        background-color: red;
+    }
+    
+    .img-logo {
+        width: 5em;
+        height: 5em;
+        justify-content: center;
+    }
     
     .navbar {
         display: flex;
-        width: 100%;
+        width: 70%;
         height: 30%;
         flex-direction: row;
         justify-content: flex-end;
@@ -26,7 +52,7 @@
     }
     
     .nav-item {
-        background-color: #A98307;
+        background-color: #6d5609;
         padding: 0.2em;
         margin-right: 0.3em;
         border-radius: 2px;
@@ -43,6 +69,7 @@
         color: #ffff;
         text-decoration: none;
     }
+    /* Caja presentacion */
     
     .container-2 {
         display: flex;
@@ -53,31 +80,60 @@
         flex-flow: row wrap;
     }
     
+    .cont-2-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        -ms-border-radius: 150px;
+        -o-border-radius: 150px;
+        border: 10px solid #6d5609;
+    }
+    /* Caja productos */
+    
     .caja {
         width: 100%;
-        height: 200px;
+        height: 30%;
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         flex-flow: row wrap;
         background-color: #A98307;
-        padding-bottom: 1em;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
     
     .cont-obj {
-        width: 10em;
-        height: 10em;
-        margin: 2em 2em 2em 2em;
-        background-color: #ffff;
+        background-color: transparent;
     }
     
+    .img-obj {
+        width: 20em;
+        height: 10em;
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+    }
+    /* Caja mapa */
+    
     .container-3 {
-        width: 100%;
+        /* width: 100%;
         height: 15em;
         display: flex;
         justify-content: center;
+        flex-direction: row;
         flex-flow: row wrap;
         padding-top: 1em;
+        padding-bottom: 1em; */
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding-top: 1em;
         padding-bottom: 1em;
+        flex-flow: row wrap;
     }
     
     .cont-img {
