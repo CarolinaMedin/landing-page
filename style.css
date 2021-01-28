@@ -10,6 +10,11 @@
         background: linear-gradient(120deg, #f7971e 0%, #ffd200 100%);
         flex-direction: column;
     }
+    
+    .time {
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: flex-end;
+    }
     /* Caja logo y navbar */
     
     .container-1 {
