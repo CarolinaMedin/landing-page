@@ -14,6 +14,7 @@
     .time {
         font-family: Arial, Helvetica, sans-serif;
         justify-content: flex-end;
+        padding: 0.5em;
     }
     /* Caja logo y navbar */
     
